@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jokenpô</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Jokenpô</h1>
+  <div class="jogo">
+    <button class="pedra" onclick="jogar('pedra')">Pedra</button>
+    <button class="papel" onclick="jogar('papel')">Papel</button>
+    <button class="tesoura" onclick="jogar('tesoura')">Tesoura</button>
+  </div>
+  <div class="resultado"></div>
+  <div class="computador"></div>
+  <button class="reiniciar" onclick="reiniciar()">Reiniciar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
