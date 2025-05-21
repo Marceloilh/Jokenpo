@@ -1,20 +1,39 @@
+# Jokenpô
+
+## Código
+html
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Jokenpô</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilos CSS */
+  </style>
 </head>
 <body>
-  <h1>Jokenpô</h1>
-  <div class="jogo">
-    <button class="pedra" onclick="jogar('pedra')">Pedra</button>
-    <button class="papel" onclick="jogar('papel')">Papel</button>
-    <button class="tesoura" onclick="jogar('tesoura')">Tesoura</button>
-  </div>
-  <div class="resultado"></div>
-  <div class="computador"></div>
-  <button class="reiniciar" onclick="reiniciar()">Reiniciar</button>
-
-  <script src="script.js"></script>
+  <!-- Conteúdo HTML -->
+  <script>
+    // Código JavaScript
+  </script>
 </body>
 </html>
+
+Funcionalidades
+- Jogo de Jokenpô com opções de pedra, papel e tesoura
+- Resultado do jogo é exibido na tela
+
+Como funciona
+1. O jogador seleciona uma opção (pedra, papel ou tesoura)
+2. O computador seleciona uma opção aleatória
+3. O resultado do jogo é determinado com base nas regras do Jokenpô
+
+Código JavaScript
+
+function jogar(escolha) {
+  const opcoes = ['pedra', 'papel', 'tesoura'];
+  const computador = opcoes[Math.floor(Math.random() * opcoes.length)];
+
+  // Lógica do jogo
+}
+
